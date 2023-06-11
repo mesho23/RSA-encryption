@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RSA encryption</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/node-forge@1.0.0/dist/forge.min.js"></script>
+  <script src="/javascripts/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>RSA Encryption</h1>
+    <div class="IDs">Online ID:</div>
+    <table class="IDs-table">
+      <thead>
+        <tr>
+          <th>User ID</th>
+        </tr>
+      </thead>
+      <tbody><input class="receiver" type="text" name="receiver" placeholder="Receiver ID" /></tbody>
+    </table>
+
+<div class="input-box">
+  
+  <input class="message" id="mytext" type="text" name="message" placeholder="Your text" />
+  <button class="messageBtn">Send Message</button>
+</div>
+<div class="id-container">
+  <h3>Your ID:</h3>
+  <p class="id"></p>
+</div>
+
+<div class="chat-container">
+  <div class="chat">
+    <div>Messages you received or sent:
+    <div id="messages">
+    </div>
+  </div>
+  </div>
+    </div>
+  </div>
+  
+  <dialog id="mydialog" >
+    <p>a Simulation of KDC and public key cryptography using RSA encryption, done by Utilizing the Web architecture and using Socket io to 
+      provide the IDs, developed using thin server architecture in mind, note to view the original  encrypted text you just need to click on it</p>
+     <p>team members:</p>
+      <p><a href="https://www.linkedin.com/in/meshari-alkhamisi-06788a21b/">Meshari Alkhamisi</a></p>
+      <p><a href="https://www.linkedin.com/in/osama-alharthi-2699b127a">Osama Alharthi </a></p>
+    <form method="dialog">
+      <button class="dialog-btn">OK</button>
+    </form>
+  </dialog>
+</body>
+
+<footer>
+  <div class="description ">
+    <button class="footerBtn">About the Project</button>
+  </div>
+  
+</footer>
+</html>
