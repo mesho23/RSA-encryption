@@ -6,15 +6,15 @@ RSA encryption made using public key infrastructure made by using node js and so
 
 ## How to use it?
 
-very simple steps
+very simple steps, open your terminal and type:
 
-git clone https://github.com/mesho23/RSA-encryption.git
+`git clone https://github.com/mesho23/RSA-encryption.git`
 
-cd RSA-encryption/
+`cd RSA-encryption/`
 
-npm i
+`npm i`
 
-node app.js 
+`node app.js`
 
 and now you can use it by going to your browser and accessing localhost:3030
 
