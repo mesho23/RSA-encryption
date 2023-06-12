@@ -13,7 +13,7 @@ npm i
 
 node app.js 
 
-and now you can use it by going to your browsers and accessing localhost:3030.
+and now you can use it by going to your browser and accessing localhost:3030.
 
 if you face an error in npm i or node app.js, this means you don’t have them installed 
 
